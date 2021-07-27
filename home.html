@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="home.css">
+  <title>Blanja | Home</title>
+</head>
+
+<body>
+  <!-- Navbar --> 
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="../assets/Logo.svg" alt="bag" /><span> Blanja</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex flex-row align-items-center">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <img class="search" src="../assets/Search.svg" alt="">
+          <span><a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M1 13C1 6.37258 6.37258 1 13 1H29C35.6274 1 41 6.37258 41 13V29C41 35.6274 35.6274 41 29 41H13C6.37258 41 1 35.6274 1 29V13Z" fill="white" stroke="#8E8E93"/>
+              <path d="M29.3332 13.5H12.6665L19.3332 21.3833V26.8333L22.6665 28.5V21.3833L29.3332 13.5Z" stroke="#8E8E93" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+          </a></span>
+        </form>
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0 d-flex flex-row justify-content-around">
+          <li><a class="cart" href="../cart/cart.html">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                  <path
+                    d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z"
+                    stroke="#9B9B9B" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z"
+                    stroke="#9B9B9B" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6"
+                    stroke="#9B9B9B" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round" />
+                </g>
+                <defs>
+                  <clipPath id="clip0">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="../auth/Login/login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../auth/Register/register.html">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- <main class="container">
+    <div class="item">
+    <hr>
+      <div class="row">
+        <div class="col">
+          <a href="">
+            <div class="card-body" style="height: 100px">
+              <img src="../assets/Card Promotion.svg" class="card-img.up" alt="image product">
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card-body" style="height: 100px">
+              <img src="../assets/Card Promotion 2.svg" class="card-img.up" alt="image product">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main> -->
+
+  <main class="container">
+    <div class="item">
+    <hr>
+      <h3><b>Category</b></h3>
+      <span>What are you currently looking for!</span>
+      <div class="row">
+        <div class="col">
+          <a href="">
+            <div class="card-body" style="height: 150px">
+              <img src="../assets/T-Shirt.svg" class="card-img" alt="image product">
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card-body" style="height: 150px">
+              <img src="../assets/Shorts.svg" class="card-img" alt="image product">
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card-body" style="height: 150px">
+              <img src="../assets/Jacket.svg" class="card-img" alt="image product">
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card-body" style="height: 150px">
+              <img src="../assets/Pants.svg" class="card-img" alt="image product">
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card-body" style="height: 150px">
+              <img src="../assets/Shoes.svg" class="card-img" alt="image product">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <main class="container">
+    <div class="item">
+      <h3><b>New</b></h3>
+      <span>You've never seen it before!</span>
+      <div class="row">
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Product -->
+</main>
+
+  <main class="container">
+    <div class="item">
+      <h3><b>Popular</b></h3>
+      <span>Find clothes that are trending recently</span>
+      <div class="row">
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="">
+            <div class="card">
+              <img src="../assets/gez-xavier-mansfield.svg" class="card-img-top" alt="image product">
+              <div class="card-body">
+                <p>Men's formal suit - Black & White</p>
+                <ul>
+                  <li class="price">$ 40.0</li>
+                  <li class="store">Zalora Cloth</li>
+                  <li>
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <img src="../assets/Star.svg" alt="start">
+                    <span>(10)</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Product -->
+</main>
+</body>
+</html>
